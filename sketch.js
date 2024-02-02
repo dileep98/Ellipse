@@ -8,7 +8,8 @@ function windowResized() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas=createCanvas(windowWidth,windowHeight);
+  canvas.position(0, 0);
   for (let i = 0; i < ballsCount; i++) {
     balls[i] = new Ball();
     // balls[i].a = random(-width / 2 + 100, width / 2 + 100);
