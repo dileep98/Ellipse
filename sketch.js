@@ -31,7 +31,7 @@ function draw() {
   //     50
   //   );
   background(0, 0, 0, 50);
-  frameRate(20);
+  frameRate(60);
 
   //   background(0, 0, 0, 50);
   translate(width / 2, height / 2);
