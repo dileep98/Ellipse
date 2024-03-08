@@ -19,7 +19,7 @@ function setup() {
     baseEliipiseWidth = baseEliipiseWidth + 2;
     baseEllipseHeight = baseEllipseHeight + 1;
     balls[i].angle = random(0, 365) + random(0, 5);
-    console.log(i);
+    // console.log(i);
   }
 }
 
